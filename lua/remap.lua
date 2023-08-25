@@ -27,6 +27,16 @@ vim.keymap.set("n", "<leader>/", ":noh<CR>")
 vim.keymap.set("n", "<leader>o", "o<esc>")
 vim.keymap.set("n", "<leader>O", "O<esc>")
 
+-- Create vertical and Horizontal Split screen
+vim.keymap.set("n","<leader>s", "<C-w>s")
+vim.keymap.set("n","<leader>v", "<C-w>v")
+
+-- Close a Split Screen
+vim.keymap.set("n","<leader>q", ":q<CR>")
+
+-- Quick Save
+vim.keymap.set("n","<leader>w", ":w<CR>")
+
 -- add space in normal mode
 vim.keymap.set("n", "<leader><leader>", "i<space><esc>")
 
@@ -37,3 +47,4 @@ vim.keymap.set("n", "<C-k>", "<cmd>cnext<CR>zz")
 vim.keymap.set("n", "<C-j>", "<cmd>cprev<CR>zz")
 vim.keymap.set("n", "<leader>k", "<cmd>lnext<CR>zz")
 vim.keymap.set("n", "<leader>j", "<cmd>lprev<CR>zz")
+

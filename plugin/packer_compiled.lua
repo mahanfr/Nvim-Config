@@ -79,6 +79,11 @@ _G.packer_plugins = {
     path = "/home/mahan/.local/share/nvim/site/pack/packer/start/LuaSnip",
     url = "https://github.com/L3MON4D3/LuaSnip"
   },
+  catppuccin = {
+    loaded = true,
+    path = "/home/mahan/.local/share/nvim/site/pack/packer/start/catppuccin",
+    url = "https://github.com/catppuccin/nvim"
+  },
   ["cmp-nvim-lsp"] = {
     loaded = true,
     path = "/home/mahan/.local/share/nvim/site/pack/packer/start/cmp-nvim-lsp",
@@ -134,15 +139,25 @@ _G.packer_plugins = {
     path = "/home/mahan/.local/share/nvim/site/pack/packer/start/telescope.nvim",
     url = "https://github.com/nvim-telescope/telescope.nvim"
   },
-  ["tokyonight.nvim"] = {
+  ["tree-sitter-asm"] = {
     loaded = true,
-    path = "/home/mahan/.local/share/nvim/site/pack/packer/start/tokyonight.nvim",
-    url = "https://github.com/folke/tokyonight.nvim"
+    path = "/home/mahan/.local/share/nvim/site/pack/packer/start/tree-sitter-asm",
+    url = "https://github.com/rush-rs/tree-sitter-asm"
   },
   undotree = {
     loaded = true,
     path = "/home/mahan/.local/share/nvim/site/pack/packer/start/undotree",
     url = "https://github.com/mbbill/undotree"
+  },
+  ["vim-airline"] = {
+    loaded = true,
+    path = "/home/mahan/.local/share/nvim/site/pack/packer/start/vim-airline",
+    url = "https://github.com/vim-airline/vim-airline"
+  },
+  ["vim-airline-themes"] = {
+    loaded = true,
+    path = "/home/mahan/.local/share/nvim/site/pack/packer/start/vim-airline-themes",
+    url = "https://github.com/vim-airline/vim-airline-themes"
   },
   ["vim-closer"] = {
     loaded = true,
@@ -153,6 +168,11 @@ _G.packer_plugins = {
     loaded = true,
     path = "/home/mahan/.local/share/nvim/site/pack/packer/start/vim-fugitive",
     url = "https://github.com/tpope/vim-fugitive"
+  },
+  ["vim-tmux-navigator"] = {
+    loaded = true,
+    path = "/home/mahan/.local/share/nvim/site/pack/packer/start/vim-tmux-navigator",
+    url = "https://github.com/christoomey/vim-tmux-navigator"
   }
 }
 

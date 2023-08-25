@@ -13,8 +13,12 @@ return require('packer').startup(function(use)
         requires = { {'nvim-lua/plenary.nvim'} }
     }
 
+    -- Vim Tmux Navigation
+    use 'christoomey/vim-tmux-navigator'
+
     -- Treesitter
     use { 'nvim-treesitter/nvim-treesitter', run = ':TSUpdate' }
+    use { 'rush-rs/tree-sitter-asm' }
 
     -- creates a tree of changes on a file
     use('mbbill/undotree')
@@ -25,9 +29,15 @@ return require('packer').startup(function(use)
     -- File Icons
     use 'nvim-tree/nvim-web-devicons'
 
+    -- Air Line
+    use 'vim-airline/vim-airline'
+
     -- Theme
-    use 'folke/tokyonight.nvim'
-    
+    use { "catppuccin/nvim", as = "catppuccin" }
+
+    -- Airline themes
+    use 'vim-airline/vim-airline-themes'
+
     -- Neovim Language Server
     use {
         'VonHeikemen/lsp-zero.nvim',
